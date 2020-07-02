@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HAON - PROJECT PROPOSAL</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="assets\js\jquery-ui.js"></script>
+  <script src="js\script.js"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|PT+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+<body>
+
+  <nav id="nav">
+    <a href="#about-anchor">About</a>
+    <a href="#primary-anchor">Features</a>
+    <a href="#research-anchor">Research</a>
+  </nav>
+    <!-- the header div -->
+  <header>
+    <hgroup>
+      <h2 id="title">TAPESTRY</h2>
+      <h3 id="description">A worldbuilding website for your writing team</h3>
+      <div id="primary-anchor"></div>
+    </hgroup>
+  </header>
+  <!-- the main div -->
+  <main>
+    <div class="features" id="primary">
+      <div class="features-content">
+        <ul>
+          <h2>Primary features</h2>
+          <li>Organize your article with movable panels and an easy tracking outline</li>
+          <li>Have trouble typing? Try drawing it</li>
+          <li>Map out your world's story</li>
+          <li>Comment your thoughts to each other in an intuitive way</li>
+        </ul>
+        <div class="album" id="prim-album">
+          <img src="assets\img\storyboard_001.png" alt="img1" id="prim-img">
+          <button type="button" class="sec-button" id="first-i1"></button>
+          <button type="button" class="sec-button" id="first-i2"></button>
+          <button type="button" class="sec-button" id="first-i3"></button>
+          <button type="button" class="sec-button" id="first-i4"></button>
+        </div>
+      </div>
+
+    </div>
+    <div class="features" id="secondary">
+      <div class="features-content">
+        <div class="album" id="sec-album">
+          <img src="assets\img\storyboard_005.png" alt="img2" id="sec-img">
+          <button type="button" class="sec-button" id="sec-i1"></button>
+          <button type="button" class="sec-button" id="sec-i2"></button>
+          <button type="button" class="sec-button" id="sec-i3"></button>
+          <button type="button" class="sec-button" id="sec-i4"></button>
+        </div>
+        <ul>
+          <h2>Additional features</h2>
+          <li>Alert, inquire or inspire your teamates with a simple notification</li>
+          <li>Have people help edit your own article</li>
+          <li>Lost in your own writing? Use our search bar</li>
+          <li>Make cross references with our tagging systems</li>
+        </ul>
+      </div>
+    </div>
+    <div id="about-anchor"></div>
+    <p id="features-conclude">Your ideas stay private within your group. No spoiler!</p>
+
+    <div id="about">
+      <button type="button" class="button"><h2>About my project</h2></button>
+
+      <div id="about-content">
+        <div id="item1" class="items">
+          <h3>Inspiration</h3>
+          <p>The idea has started to form for a while, but had not had the chance to be fully fleshed out. I was working in a writing team of an indie game project – that is to say, a project fully formed by students and people with a dream bigger than their current capacity, some of us living countries apart. We came together with a story to tell, and we are on our way to make our story, its world and its character more real.
+          <br><br>But the process is slow, and our documents are scattered across storages and websites, incomplete and inconsistent. I have searched for story planning tools for a while in order to reorganize our information and plan for future tasks, but none of them really worked the way I wanted. And thus, as wise men usually say: if you cannot buy it, do it yourself.
+          <br><br>To be completely truthful, there are many things I wanted for effective worldbuilding: a map, an expansive and revisable timeline, a well-catalogued encyclopedia, a clear character template and relationship chart, an effective cross-referencing system that links everything together. A task managing system that can help us keeping up with our work, that can somehow give us more insight on what to work with next. Up until now, we have been making do with Facebook groups and Google Drive, but if we can build some framework to call our own proper, it would be a great leap.
+          <br><br>With that goal in mind, I start to create the most basic ideas for Tapestry.</p>
+        </div>
+
+        <div id="item2" class="items">
+          <h3>User-Space relationship</h3>
+          <p>The idea is simple: I want to create an effective worldbuilding workspace, as many others have strived to do. It’s not very exciting to type upon files and files of words, ever-polished, without a trace of the thinking process we have gone through to reach that point. Therefore, my focus with Tapestry is to record – to an acceptable and legible level – official information about our story but at the same time encourage my teammates to make side notes, sketches, little ideas that would prove to be potential in the future. The big vision is for our tool to be as intuitive and flexible as possible. </p>
+          <h3>Empowerment</h3>
+          <p>Every writer wants to create a world, and the process of building such world together is an amazing experience. I want my users to be able to enjoy this experience without being pressured by rigid tasks and cold deadlines.
+          <br><br>However, after all, it is but an experiment. I have experienced some amazing brainstorming session with our project leader, but it was pretty much one-on-one conversations and the linear style of Messenger doesn’t allow us to coin and record our topics effectively. Tapestry is my attempt to bring our personal project closer together, while still keeping up with each writer’s productivity. Will it succeed? We will need a test session between our dear members to know for sure, but if it does, it would be a great joy to share this tool to other people as well. </p>
+          <div id="research-anchor"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="research">
+      <button type="button" id="rec" class="button"><h2>You might also be interested in...</h2></button>
+      <div class="research-content">
+        <div class="research-item" id="campfire">
+          <a href="https://www.campfiretechnology.com/pro/" target="_blank"><h3>Campfire Pro</h3></a>
+          <p>Campfire Pro is a tool that helps writers create stories and organize their ideas, developed by Campfire Technology. Its simplistic design and flexible, intuitive UI along with a basic guideline for each category give the users an immersive playground to map out their world.
+          <br>Campfire places its focus on the following sections: Character, Character Arcs, Relationships, Timeline, World Map and Encyclopedia (Lore). Each section is specialized with a set of prompts, cross references, filters and ‘custom’ options that allow the user to add personalized content. The user is thus able to develop from a given template, adding custom panels, text and image, moving each panel around, sizing and placing it the way they want. They can also link certain entries from one category to another, for example: the characters created in the Character section can be later referred to in the Relationship section, and any change made to the characters will be accordingly registered. It is also possible to import data from outer source into the Campfire template, such as Excel or Google Sheet.
+          <br> Last but not least, Campfire allows its user to export their entries into a linear PDF file. This is very helpful for data backup as well as presenting information in a more traditional format, if the need arises.</p>
+        </div>
+        <div class="research-item" id = "worldanvil">
+          <a href="https://www.worldanvil.com/"><h3>World Anvil</h3></a>
+          <p>World Anvil is a worldbuilding website with an extensive set of categories, an elaborate template that takes after the Wiki format, and a timeline feature that aim to assist its user in planning out their world to the smallest details. World Anvil targets and is specialized for each different types of world builders: Gamemaster, Writer, Creative and Roleplayer.
+          <br>World Anvil contains essential tools that go with world building, just like Campfire, but there are certain distinctions. Unlike Campfire, World Anvil provides specific, numerous categories for its articles, each of them then comes with a thorough list of questions and prompts for the user to fill in. This feature has both its good and bad sides: The list can be inspiring and eye-opening toward details that the writer could have missed; but it can also leads to a state of overwhelm for writers who favor the simplicity and clarity. When it comes to visual aspects, World Anvil provides a neat and beautiful linear presentation, but each article when updated to this format will also become public.
+          <br>However, World Anvil does possess an elaborated and easy-to-use cross reference feature, like a Wiki page. User can create a blank article on the spot (even when editing another article), put it in its proper category then come back and edit it later.</p>
+        </div>
+        <div class="research-item" id="ggdrive">
+          <a href="https://drive.google.com/"><h3>Google Drive</h3></a>
+          <p>Google Drive is a file storage and synchronization service, and it is thus effective in storing, categorizing and sharing data between devices and between users.
+          <br>On the other hand, sharing an online document also enables live editing, quick commenting and annotations. It proves very helpful during the process of collaborative work between groups. In the context of worldbuilding, when invited by the document owner, users are allowed to review and comment on a document without changing its content, but they can also be invited to edit the document and participate in a quick process of creative writing or brainstorming.
+          <br>Despite their marketing, Google Drive is <a href="https://www.theverge.com/2012/4/25/2973849/google-drive-terms-privacy-data-skydrive-dropbox-icloud">not entirely secure</a> when it comes to privacy issues and licensing, as it is unclear on the rights Google has in using, distributing and deriving from user data via user license. </p>
+        </div>
+        <div class="research-item" id="myPJ">
+          <h3>And you might ask…</h3>
+          <p>Why use Tapestry, then?
+          <br>The goal of Tapestry is to provide a flexible and intuitive workspace specialized for worldbuilding, and it is collaborated! It aims to encourage your creative process, to become a place where you can add and edit yours and your teammates’ content, offer your remarks and helpful suggestive in the easiest, most seamless way possible while maintaining a clear and structured presentation for your article. With Tapestry’s current features, you would be able to not only type your content and draft out a structured timeline for your story – or history, or a choice system – with its given templates, but you will also be able to make your own hand-drawn sketch, whatever befits you the most at the moment! And if you feel the workspace becomes clustered, it will help you do the clean-up: with proper tags, your content will be filtered.
+          <br>With Tapestry, you would benefit from an engaging environment with your group, an annotated encyclopedia for your world, an overlook on your progress and, above all, your mutual creation coming to shape, from the threads weaved by your own hands.</p>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="button"><h2>Go to Tapestry</h2></button>
+
+  </main>
+  <!-- the footer div -->
+<footer>
+  <p>This page contains works and projects created for Concordia University's CART 351 - 2019.</p>
+  <p>(c) Nguyen Phuong Hao</p>
+</footer>
+</body>
+</html>

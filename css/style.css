@@ -1,0 +1,151 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 10vh;
+  background: rgb(20,25,30);
+  color: rgb(200,200,200);
+  font-weight: lighter;
+  line-height: 24px;
+}
+
+nav {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255,255,255,0.9);
+  text-align: center;
+  padding-top: 10px;
+  transform: translateX(-10vh);
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 100%;
+  color: black;
+}
+
+header {
+  padding-left: 100px;
+  padding-top: 10vh;
+  text-align: center;
+  margin-bottom: 15vh;
+}
+
+#title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 300%;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', 'Lato', sans-serif;
+}
+
+li {
+  list-style-type: square;
+}
+
+.button {
+  background-color: white;
+  color: rgb(20,25,30);
+  border: none;
+  width: 100%;
+  min-width: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.research-content {
+  display: none;
+}
+
+.features {
+  margin: 0 10vh;
+}
+
+/* #primary h2 {
+  float: right;
+} */
+
+.features-content {
+  display: flex;
+  align-items:center;
+  width: 100%;
+}
+
+#features-conclude {
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+#primary {
+  margin-bottom: 100px;
+}
+
+#primary ul, #secondary ul {
+  width: 50%;
+}
+
+#prim-album, #sec-album {
+  width: 60%;
+  text-align: center;
+}
+
+#sec-album {
+  margin-right: 10%;
+}
+
+#prim-img, #sec-img {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sec-button {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.sec-button:hover {
+  background-color: black;
+}
+
+#about-content {
+  padding: 20px 0;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+#about-content .items {
+  padding: 0 50px;
+}
+
+
+.research-content a {
+  text-decoration: none;
+  font-style: italic;
+  color: white;
+}
+footer {
+  text-align: center;
+  font-size: 80%;
+}
